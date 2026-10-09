@@ -1,0 +1,19 @@
+# AR Gesture Combat
+# Use Python 3.10, 3.11, or 3.12 (64-bit). Do not use 3.13 — MediaPipe has no wheel for it.
+#
+# Setup (from this folder):
+#   python -m venv venv
+#   venv\Scripts\activate          # macOS/Linux: source venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Run:
+#   cd ar_game
+#   python main.py
+#
+# Hardware for software teammates: a webcam (laptop camera or USB).
+
+pygame>=2.5.0,<3
+opencv-python>=4.8.0,<4.12
+mediapipe>=0.10.14,<1.1
+numpy>=1.26.0
+pyserial>=3.5
